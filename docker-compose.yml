@@ -1,35 +1,29 @@
 version: '3'
 services:
   devops:
-    image: ram0987/devops:latest
+    image: ram0987/bike:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
 
   aws:
-    image: ram0987/aws:latest
+    image: ram0987/car:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
 
   datascience:
-    image: ram0987/datascience:latest
+    image: ram0987/bus:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
 
   azure:
-    image: ram0987/azure:latest
+    image: ram0987/racket:latest
     ports:
       - "84:80"
-    deploy:
-      replicas: 3
-  aws:
-    image: ram0987/aws:latest
-    ports:
-      - "85:80"
     deploy:
       replicas: 3
