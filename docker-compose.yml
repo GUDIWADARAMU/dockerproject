@@ -1,29 +1,29 @@
 version: '3'
 services:
-  bike:
-    image: ram0987/bike:latest
+  usa:
+    image: ram0987/usa:latest
     ports:
-      - "81:80"
+      - "85:80"
     deploy:
       replicas: 3
 
-  car:
-    image: ram0987/car:latest
+  india:
+    image: ram0987/india:latest
     ports:
-      - "82:80"
+      - "86:80"
     deploy:
       replicas: 3
 
-  bus:
-    image: ram0987/bus:latest
+  japan:
+    image: ram0987/japan:latest
     ports:
-      - "83:80"
+      - "87:80"
     deploy:
       replicas: 3
 
-  racket:
-    image: ram0987/racket:latest
+  china:
+    image: ram0987/china:latest
     ports:
-      - "84:80"
+      - "88:80"
     deploy:
       replicas: 3
