@@ -27,7 +27,7 @@ services:
       - "84:80"
     deploy:
       replicas: 3
- aws:
+  aws:
     image: ram0987/aws:latest
     ports:
       - "85:80"
