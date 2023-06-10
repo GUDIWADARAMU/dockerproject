@@ -1,29 +1,29 @@
 version: '3'
 services:
-  usa:
-    image: ram0987/usa:latest
+  nanna:
+    image: ram0987/nanna:latest
     ports:
-      - "85:80"
+      - "91:80"
     deploy:
       replicas: 3
 
-  india:
-    image: ram0987/india:latest
+  amma:
+    image: ram0987/amma:latest
     ports:
-      - "86:80"
+      - "92:80"
     deploy:
       replicas: 3
 
-  japan:
-    image: ram0987/japan:latest
+  mamma:
+    image: ram0987/mamma:latest
     ports:
-      - "87:80"
+      - "93:80"
     deploy:
       replicas: 3
 
-  china:
-    image: ram0987/china:latest
+  thammudu:
+    image: ram0987/thammudu:latest
     ports:
-      - "88:80"
+      - "94:80"
     deploy:
       replicas: 3
